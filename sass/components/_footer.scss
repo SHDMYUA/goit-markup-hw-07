@@ -1,0 +1,126 @@
+.footer { 
+  height: 252px;
+  background: var(--bg-footer-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.address .post {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.address .item {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71px;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+  margin-right: 70px;
+}
+
+.address .post:hover,
+.address .post:focus {
+  color: var(--accent-text-color);
+}
+
+.address .item:hover,
+.address .item:focus {
+  color: var(--accent-text-color);
+}
+
+.item-li {
+  margin-top: 20px;
+  margin-bottom: 9px;
+}
+
+.item-li:last-child {
+  margin-bottom: 0px;
+}
+
+.item-li:not(:first-child) {
+  margin-top: 0px;
+}
+
+/* FOOTER SOCIAL ICONS */
+
+.footer-social-title {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+  }
+
+.footer-social-icon {
+  fill: #FFFFFF;
+}
+
+.footer-social-link {
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color var(--transition-fast), background-color var(--transition-fast);
+}
+
+.footer-social-icon {
+  fill: #FFFFFF;  
+}
+
+.footer-social-link:hover {
+  background-color: var(--accent-text-color);
+}
+
+.footer-social-link:focus {
+  background-color: var(--accent-text-color);
+}
+
+.footer-social-link:hover
+.footer-social-icon {
+  fill: rgba(255, 255, 255, 1);
+}
+
+.footer-social-link:focus
+.footer-social-icon {
+  fill: rgba(255, 255, 255, 1);
+}
+
+/* линки соцсетей */
+.footer-social-links {
+  display: flex;
+  align-items: center;
+}
+
+.center-footer {
+  display: block;
+  justify-content: center;
+  margin-right: 93px;
+}
+/* лого+адрес */
+.left-footer {
+  display: block;
+  align-items: flex-start;
+  margin-right: 70px;
+}
+
+/* общий */
+.right-footer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
