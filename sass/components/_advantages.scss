@@ -9,22 +9,25 @@
   margin-bottom: 30px;
 }
 
-.benefits .title {
+.benefits-title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   margin-bottom: 10px;
+  &:before {
+    content:'';
+    display: block;
+    background: #000;
+  }
 }
 
-.benefits .title:before {
-  content:'';
-  display: block;
-  background: #000;
-}
-
-.benefits .content{
+.benefits-content {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
   font-size: 14px;
+  letter-spacing: 0.03em;
   line-height: 1.71;
   color: var(--secondary-text-color);
   margin-bottom: 94px;

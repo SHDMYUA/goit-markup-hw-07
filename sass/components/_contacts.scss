@@ -32,12 +32,11 @@
 .item-li {
   margin-top: 20px;
   margin-bottom: 9px;
-}
-
-.item-li:last-child {
-  margin-bottom: 0px;
-}
-
-.item-li:not(:first-child) {
-  margin-top: 0px;
+  &:last-child {
+    margin-bottom: 0px;
+  }
+  
+  &:not(:first-child) {
+    margin-top: 0px;
+  }
 }

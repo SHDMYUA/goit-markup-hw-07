@@ -9,9 +9,9 @@ img {
 }
 
 a,
-a:visited,
-a:hover,
-a:active {
+    &:visited,
+    &:hover,
+    &:active {
     text-decoration: none;
     opacity: 0.8;
     cursor: pointer;
