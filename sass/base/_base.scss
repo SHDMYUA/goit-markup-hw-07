@@ -8,14 +8,11 @@ img {
     height: auto;
 }
 
-a,
-    &:visited,
-    &:hover,
-    &:active {
-    text-decoration: none;
-    opacity: 0.8;
-    cursor: pointer;
-}
+// a:visited a:hover a:active {
+//     text-decoration: none;
+//     opacity: 0.8;
+//     cursor: pointer;
+// }
 
 ul, ol {
     margin: 0;

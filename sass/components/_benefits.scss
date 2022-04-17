@@ -1,4 +1,9 @@
-.benefits-item-wrap {
+.container .benefits {
+  display: inline-flex;
+  margin-right: auto;
+}
+
+.benefits__wrap {
   width: 270px;
   height: 120px;
   display: inline-flex;
@@ -7,9 +12,13 @@
   background: #F5F4FA;
   border-radius: 4px;
   margin-bottom: 30px;
+    &:not(:last-child) {
+      margin-right: 30px;
+  }
 }
 
-.benefits-title {
+.benefits__title {
+  width: 270px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -22,8 +31,8 @@
   }
 }
 
-.benefits-content {
-  font-family: Roboto;
+.benefits__content {
+  width: 270px;
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -33,11 +42,3 @@
   margin-bottom: 94px;
 }
 
-.container .benefits {
-  display: inline-flex;
-  margin-right: auto;
-}
-
-.benefits-item:not(:last-child) {
-  margin-right: 30px;
-}
