@@ -348,7 +348,8 @@ section {
   letter-spacing: 0.06em;
 }
 
-.container .benefits {
+.container
+.benefits {
   display: inline-flex;
   margin-right: auto;
 }
@@ -421,7 +422,8 @@ section {
   text-align: center;
 }
 
-.container .development {
+.container
+.development {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -515,6 +517,16 @@ section {
   fill: #afb1b8;
 }
 
+.member-social__link:hover
+.member-social__icon {
+  fill: white;
+}
+
+.member-social__link:focus
+.member-social__icon {
+  fill: white;
+}
+
 .member-social__link {
   width: 44px;
   height: 44px;
@@ -538,19 +550,13 @@ section {
   background-color: var(--accent-text-color);
 }
 
-.member-social__link:hover
-.member-social__icon {
-  fill: white;
-}
-
-.member-social__link:focus
-.member-social__icon {
-  fill: white;
-}
-
 .customers__item {
   width: 170px;
   height: 92px;
+}
+
+.customers__item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .customers-list {
@@ -574,15 +580,6 @@ section {
   transition: color var(--transition-fast), background-color var(--transition-fast);
 }
 
-.customers__item:not(:last-child) {
-  margin-right: 30px;
-}
-
-.customers__link:hover
-.customers__link:focus {
-  color: var(--accent-text-color);
-}
-
 .customers__link:hover
 .customers__logo {
   fill: var(--accent-text-color);
@@ -593,6 +590,11 @@ section {
 .customers__logo {
   fill: var(--accent-text-color);
   border: 1px solid var(--accent-text-color);
+}
+
+.customers__link:hover
+.customers__link:focus {
+  color: var(--accent-text-color);
 }
 
 .subscraber__input {
