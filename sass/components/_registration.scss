@@ -1,4 +1,4 @@
-.subscraber-input {
+.subscraber__input {
   width: 358px;
   height: 50px;
   background-color: var(--bg-footer-color);
@@ -9,7 +9,7 @@
   margin-right: 12px;
 }
 
-.subscraber-input::placeholder {
+.subscraber__input::placeholder {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.14;
@@ -18,12 +18,12 @@
   opacity: 1;
 }
 
-.subscraber-input:active {
+.subscraber__input:active {
   border: 1px solid rgba(255, 255, 255, 0.3);
   color:rgba(255, 255, 255, 0.3);
 }
 
-.subscraber-input:not(placeholder-shown) {
+.subscraber__input:not(placeholder-shown) {
   border: 2px solid rgba(255, 255, 255, 0.3);
   color:rgba(255, 255, 255, 0.3);
 }
